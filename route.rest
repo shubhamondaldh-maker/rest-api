@@ -1,0 +1,32 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6a3e5fc0abca2f3d8883f916
+
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+
+{
+    "name":"vs",
+    "subscribedToChannel": "web "
+}
+
+
+
+
+###
+DELETE http://localhost:3000/subscribers/6a3e5fc0abca2f3d8883f916
+
+
+###
+PATCH  http://localhost:3000/subscribers/6a3e620fabca2f3d8883f918
+Content-Type: application/json
+
+{
+    "name":"raju"
+}
